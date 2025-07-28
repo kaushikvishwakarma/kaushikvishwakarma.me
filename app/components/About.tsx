@@ -55,10 +55,14 @@ export default function About() {
             </div>
           </div>
           
-          {/* Right Content - Image Placeholder */}
+          {/* Right Content - Profile Image */}
           <div className="flex justify-center">
-            <div className="w-80 h-80 bg-gradient-to-br from-primary-100 to-primary-200 rounded-lg flex items-center justify-center">
-              <div className="text-8xl font-bold text-primary-400">KV</div>
+            <div className="w-80 h-80 rounded-lg overflow-hidden shadow-xl ring-4 ring-primary-200">
+              <img 
+                src="/images/kaushik-profile.jpg" 
+                alt="Kaushik Vishwakarma" 
+                className="w-full h-full object-cover"
+              />
             </div>
           </div>
         </div>

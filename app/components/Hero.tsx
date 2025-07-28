@@ -5,9 +5,13 @@ export default function Hero() {
     <section id="home" className="min-h-screen flex items-center justify-center bg-gradient-to-br from-white to-primary-50 pt-20">
       <div className="container-max section-padding text-center">
         <div className="animate-fade-in">
-          {/* Profile Image Placeholder */}
-          <div className="w-32 h-32 mx-auto mb-8 bg-primary-200 rounded-full flex items-center justify-center text-6xl font-bold text-primary-700">
-            KV
+          {/* Profile Image */}
+          <div className="w-32 h-32 mx-auto mb-8 rounded-full overflow-hidden shadow-lg ring-4 ring-primary-200">
+            <img 
+              src="/images/kaushik-profile.jpg" 
+              alt="Kaushik Vishwakarma" 
+              className="w-full h-full object-cover"
+            />
           </div>
           
           {/* Main Heading */}
