@@ -61,7 +61,7 @@ export default function Projects() {
           </h2>
           <div className="w-24 h-1 bg-primary-600 mx-auto mb-6"></div>
           <p className="text-lg text-primary-600 max-w-2xl mx-auto">
-            Here are some of the projects I've worked on. Each project represents a unique challenge and learning experience.
+            Here are some of the projects I&apos;ve worked on. Each project represents a unique challenge and learning experience.
           </p>
         </div>
         

@@ -10,8 +10,8 @@ export default function Contact() {
           </h2>
           <div className="w-24 h-1 bg-primary-600 mx-auto mb-6"></div>
           <p className="text-lg text-primary-600 max-w-2xl mx-auto">
-            I'm always interested in new opportunities and collaborations. 
-            Let's discuss how we can work together!
+            I&apos;m always interested in new opportunities and collaborations. 
+            Let&apos;s discuss how we can work together!
           </p>
         </div>
         
@@ -20,11 +20,11 @@ export default function Contact() {
           <div className="space-y-8">
             <div>
               <h3 className="text-2xl font-semibold text-primary-900 mb-6">
-                Let's Connect
+                Let&apos;s Connect
               </h3>
               <p className="text-primary-600 mb-8">
                 Whether you have a project in mind, want to collaborate, or just want to say hello, 
-                I'd love to hear from you. Feel free to reach out through any of the channels below.
+                I&apos;d love to hear from you. Feel free to reach out through any of the channels below.
               </p>
             </div>
             
@@ -100,7 +100,7 @@ export default function Contact() {
                   id="subject"
                   name="subject"
                   className="w-full px-4 py-3 border border-primary-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-transparent"
-                  placeholder="What's this about?"
+                  placeholder="What&apos;s this about?"
                 />
               </div>
               

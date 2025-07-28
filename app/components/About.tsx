@@ -13,7 +13,7 @@ export default function About() {
           {/* Left Content */}
           <div className="space-y-6">
             <h3 className="text-2xl font-semibold text-primary-900 mb-4">
-              Hello! I'm Kaushik, a passionate developer based in India.
+              Hello! I&apos;m Kaushik, a passionate developer based in India.
             </h3>
             
             <div className="space-y-4 text-primary-600">
@@ -25,11 +25,11 @@ export default function About() {
               
               <p>
                 I have experience working with modern web technologies and frameworks. 
-                I'm always eager to learn new technologies and tackle challenging problems.
+                I&apos;m always eager to learn new technologies and tackle challenging problems.
               </p>
               
               <p>
-                When I'm not coding, you can find me exploring new technologies, reading tech blogs, 
+                When I&apos;m not coding, you can find me exploring new technologies, reading tech blogs, 
                 or working on personal projects that interest me.
               </p>
             </div>
