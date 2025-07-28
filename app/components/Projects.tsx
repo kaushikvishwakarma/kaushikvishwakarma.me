@@ -3,53 +3,62 @@ import { ExternalLink, Github } from 'lucide-react'
 export default function Projects() {
   const projects = [
     {
-      title: 'E-Commerce Platform',
-      description: 'A full-stack e-commerce platform built with Next.js, TypeScript, and Stripe integration. Features include user authentication, product catalog, shopping cart, and order management.',
-      technologies: ['Next.js', 'TypeScript', 'Tailwind CSS', 'Stripe', 'MongoDB'],
+      title: 'KAVLoyalty - Customer Loyalty Web Application',
+      description: 'A comprehensive full-stack customer loyalty web application developed during my 2-month internship at KAVLoyalty. Features secure backend APIs, user authentication, reward systems, customer modules, and transaction management. Independently handled everything from backend logic to frontend user interfaces.',
+      technologies: ['Node.js', 'Express.js', 'React.js', 'AWS DynamoDB', 'JWT', 'REST APIs'],
       github: '#',
-      demo: '#',
+      demo: 'https://www.linkedin.com/feed/update/urn:li:activity:7350036991461265409/',
+      image: '/api/placeholder/400/250',
+      featured: true,
+      internship: true
+    },
+    {
+      title: 'ChatterHub - Real-time Chat Application',
+      description: 'A modern web-based chat application built to simplify real-time communication. Features smooth and secure user authentication with Clerk, real-time messaging powered by GetStream, and seamless user experience. Deployed on Vercel for optimal performance.',
+      technologies: ['React', 'Clerk', 'GetStream', 'Ngrok', 'Vercel', 'Real-time Messaging'],
+      github: '#',
+      demo: 'https://chatterhub-alpha.vercel.app/',
+      linkedinPost: 'https://www.linkedin.com/posts/kaushik-vish_webdevelopment-chatapplication-projectshowcase-activity-7286246295617331200-cFGr?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEVo-c4BVRZE2KkXNSVFhhtgl-hL_dLpjBE',
       image: '/api/placeholder/400/250'
     },
     {
-      title: 'Task Management App',
-      description: 'A collaborative task management application with real-time updates, drag-and-drop functionality, and team collaboration features.',
-      technologies: ['React', 'Node.js', 'Socket.io', 'PostgreSQL', 'Redux'],
-      github: '#',
+      title: 'SmartSikshak - AI-Powered Education Platform',
+      description: 'An all-in-one College Mentor-Teacher-Student Web App built during Lakecity Hack 2025. Features AI-powered grading & feedback with Gemini API, facial recognition attendance system, and real-time doubt solving. Allows mentors to manage teachers/students/classes, teachers to upload materials, and students to access everything in one place.',
+      technologies: ['React.js', 'Node.js', 'MongoDB', 'Gemini API', 'Face API', 'AI/ML', 'Facial Recognition'],
+      github: 'https://github.com/kaushikvishwakarma/SmartSikshak',
       demo: '#',
-      image: '/api/placeholder/400/250'
+      linkedinPost: 'https://www.linkedin.com/posts/kaushik-vish_lakecityhack-hackathonjourney-aiineducation-activity-7320850018851016704-4iOz?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEVo-c4BVRZE2KkXNSVFhhtgl-hL_dLpjBE',
+      image: '/api/placeholder/400/250',
+      hackathon: true
     },
     {
-      title: 'Weather Dashboard',
-      description: 'A responsive weather dashboard that displays current weather, forecasts, and weather maps. Built with React and integrated with weather APIs.',
-      technologies: ['React', 'JavaScript', 'Weather API', 'Chart.js', 'CSS3'],
+      title: 'Goal Staker - Web3 Goal Tracking App',
+      description: 'A Web3-based goal tracking application where users can set goals and commit them on the Ethereum blockchain using MetaMask. Designed to keep users motivated and accountable by storing goals on-chain so users can\'t cheat their own goals. Features MetaMask login and blockchain-based goal saving.',
+      technologies: ['Next.js', 'MongoDB', 'Web3.js', 'MetaMask', 'Ethereum Blockchain', 'Smart Contracts'],
       github: '#',
       demo: '#',
-      image: '/api/placeholder/400/250'
-    },
-    {
-      title: 'Blog Platform',
-      description: 'A modern blog platform with markdown support, SEO optimization, and content management system. Built with Next.js and headless CMS.',
-      technologies: ['Next.js', 'MDX', 'Contentful', 'Vercel', 'SEO'],
-      github: '#',
-      demo: '#',
-      image: '/api/placeholder/400/250'
+      linkedinPost: 'https://www.linkedin.com/posts/kaushik-vish_hackathon-goalstaker-tiips-activity-7314531920967610368-N_ms?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEVo-c4BVRZE2KkXNSVFhhtgl-hL_dLpjBE',
+      image: '/api/placeholder/400/250',
+      hackathon: true
     },
     {
       title: 'Portfolio Website',
-      description: 'A responsive portfolio website showcasing projects and skills. Built with modern web technologies and optimized for performance.',
-      technologies: ['Next.js', 'TypeScript', 'Tailwind CSS', 'Framer Motion'],
-      github: '#',
+      description: 'A responsive portfolio website showcasing projects and skills. Built with modern web technologies and optimized for performance with clean design and smooth animations.',
+      technologies: ['Next.js', 'TypeScript', 'Tailwind CSS', 'Responsive Design'],
+      github: 'https://github.com/kaushikvishwakarma/kaushikvishwakarma.me',
       demo: '#',
       image: '/api/placeholder/400/250'
     },
     {
-      title: 'Chat Application',
-      description: 'Real-time chat application with private messaging, group chats, and file sharing capabilities. Built with Socket.io and React.',
-      technologies: ['React', 'Socket.io', 'Node.js', 'Express', 'MongoDB'],
+      title: 'Unity3D Game Development Project',
+      description: 'A comprehensive game development project built using Unity3D and C#. Features advanced game mechanics, interactive gameplay elements, and optimized performance. Demonstrates skills in game design, programming, and development workflow.',
+      technologies: ['Unity3D', 'C#', 'Game Development', 'Object-Oriented Programming', 'Game Design'],
       github: '#',
       demo: '#',
-      image: '/api/placeholder/400/250'
-    }
+      linkedinPost: 'https://www.linkedin.com/posts/kaushik-vish_gamedevelopment-unity3d-csharp-activity-7319625913585819648-KBiy?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEVo-c4BVRZE2KkXNSVFhhtgl-hL_dLpjBE',
+      image: '/api/placeholder/400/250',
+      internship: true
+    },
   ]
 
   return (
@@ -69,22 +78,50 @@ export default function Projects() {
           {projects.map((project, index) => (
             <div 
               key={project.title}
-              className="bg-white border border-primary-200 rounded-lg overflow-hidden hover:shadow-lg transition-shadow duration-300 animate-fade-in"
+              className={`bg-white border rounded-lg overflow-hidden hover:shadow-lg transition-shadow duration-300 animate-fade-in ${
+                project.featured ? 'border-primary-400 ring-2 ring-primary-200 lg:col-span-2' : 'border-primary-200'
+              }`}
               style={{ animationDelay: `${index * 0.1}s` }}
             >
               {/* Project Image Placeholder */}
-              <div className="h-48 bg-gradient-to-br from-primary-100 to-primary-200 flex items-center justify-center">
-                <div className="text-primary-400 text-4xl font-bold">
-                  {project.title.split(' ').map(word => word[0]).join('')}
+              <div className={`bg-gradient-to-br from-primary-100 to-primary-200 flex items-center justify-center ${
+                project.featured ? 'h-64' : 'h-48'
+              }`}>
+                <div className={`text-primary-400 font-bold ${
+                  project.featured ? 'text-6xl' : 'text-4xl'
+                }`}>
+                  {project.featured ? 'KAV' : project.title.split(' ').map(word => word[0]).join('')}
                 </div>
               </div>
               
               <div className="p-6">
-                <h3 className="text-xl font-semibold text-primary-900 mb-2">
+                <div className="flex flex-wrap gap-2 mb-3">
+                  {project.featured && (
+                    <div className="inline-block px-3 py-1 bg-primary-600 text-white text-xs font-medium rounded-full">
+                      Featured Project
+                    </div>
+                  )}
+                  {project.internship && (
+                    <div className="inline-block px-3 py-1 bg-green-600 text-white text-xs font-medium rounded-full">
+                      Internship
+                    </div>
+                  )}
+                  {project.hackathon && (
+                    <div className="inline-block px-3 py-1 bg-purple-600 text-white text-xs font-medium rounded-full">
+                      Hackathon
+                    </div>
+                  )}
+                </div>
+                
+                <h3 className={`font-semibold text-primary-900 mb-2 ${
+                  project.featured ? 'text-2xl' : 'text-xl'
+                }`}>
                   {project.title}
                 </h3>
                 
-                <p className="text-primary-600 text-sm mb-4 line-clamp-3">
+                <p className={`text-primary-600 mb-4 ${
+                  project.featured ? 'text-base' : 'text-sm'
+                } line-clamp-3`}>
                   {project.description}
                 </p>
                 
@@ -102,20 +139,41 @@ export default function Projects() {
                 
                 {/* Project Links */}
                 <div className="flex space-x-4">
-                  <a 
-                    href={project.github}
-                    className="flex items-center space-x-2 text-primary-600 hover:text-primary-900 transition-colors duration-200"
-                  >
-                    <Github size={16} />
-                    <span className="text-sm">Code</span>
-                  </a>
-                  <a 
-                    href={project.demo}
-                    className="flex items-center space-x-2 text-primary-600 hover:text-primary-900 transition-colors duration-200"
-                  >
-                    <ExternalLink size={16} />
-                    <span className="text-sm">Demo</span>
-                  </a>
+                  {project.github !== '#' && (
+                    <a 
+                      href={project.github}
+                      className="flex items-center space-x-2 text-primary-600 hover:text-primary-900 transition-colors duration-200"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <Github size={16} />
+                      <span className="text-sm">Code</span>
+                    </a>
+                  )}
+                  {project.demo !== '#' && (
+                    <a 
+                      href={project.demo}
+                      className="flex items-center space-x-2 text-primary-600 hover:text-primary-900 transition-colors duration-200"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <ExternalLink size={16} />
+                      <span className="text-sm">
+                        {project.featured ? 'LinkedIn Post' : 'Live Demo'}
+                      </span>
+                    </a>
+                  )}
+                  {project.linkedinPost && (
+                    <a 
+                      href={project.linkedinPost}
+                      className="flex items-center space-x-2 text-primary-600 hover:text-primary-900 transition-colors duration-200"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <ExternalLink size={16} />
+                      <span className="text-sm">LinkedIn Post</span>
+                    </a>
+                  )}
                 </div>
               </div>
             </div>

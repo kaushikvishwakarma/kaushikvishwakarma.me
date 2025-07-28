@@ -50,7 +50,7 @@ export default function Hero() {
               <Github size={24} />
             </a>
             <a 
-              href="https://linkedin.com/in/kaushikvishwakarma" 
+              href="https://www.linkedin.com/in/kaushik-vish/" 
               className="p-3 text-primary-600 hover:text-primary-900 hover:bg-primary-100 rounded-full transition-colors duration-200"
               target="_blank"
               rel="noopener noreferrer"
@@ -58,7 +58,7 @@ export default function Hero() {
               <Linkedin size={24} />
             </a>
             <a 
-              href="mailto:kaushik@example.com" 
+              href="mailto:vkaushik13804@gmail.com" 
               className="p-3 text-primary-600 hover:text-primary-900 hover:bg-primary-100 rounded-full transition-colors duration-200"
             >
               <Mail size={24} />

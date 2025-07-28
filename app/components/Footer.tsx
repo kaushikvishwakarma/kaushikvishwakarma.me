@@ -31,6 +31,9 @@ export default function Footer() {
               <a href="#projects" className="block text-primary-300 hover:text-white transition-colors duration-200">
                 Projects
               </a>
+              <a href="#hackathons" className="block text-primary-300 hover:text-white transition-colors duration-200">
+                Hackathons
+              </a>
               <a href="#contact" className="block text-primary-300 hover:text-white transition-colors duration-200">
                 Contact
               </a>
@@ -50,7 +53,7 @@ export default function Footer() {
                 <Github size={20} />
               </a>
               <a 
-                href="https://linkedin.com/in/kaushikvishwakarma" 
+                href="https://linkedin.com/in/kaushik-vish" 
                 className="p-3 bg-primary-800 hover:bg-primary-700 rounded-lg transition-colors duration-200"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -73,9 +76,7 @@ export default function Footer() {
         {/* Bottom Bar */}
         <div className="border-t border-primary-800 mt-8 pt-8 text-center">
           <p className="text-primary-300 flex items-center justify-center space-x-2">
-            <span>© {currentYear} Kaushik Vishwakarma. Made with</span>
-            <Heart size={16} className="text-red-400" />
-            <span>and Next.js</span>
+            <span>© {currentYear} Kaushik Vishwakarma.</span>
           </p>
         </div>
       </div>

@@ -20,6 +20,7 @@ export default function Header() {
     { name: 'About', href: '#about' },
     { name: 'Skills', href: '#skills' },
     { name: 'Projects', href: '#projects' },
+    { name: 'Hackathons', href: '#hackathons' },
     { name: 'Contact', href: '#contact' },
   ]
 

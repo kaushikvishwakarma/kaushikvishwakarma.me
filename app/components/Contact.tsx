@@ -1,4 +1,4 @@
-import { Mail, MapPin, Phone } from 'lucide-react'
+import { Mail, MapPin, Linkedin } from 'lucide-react'
 
 export default function Contact() {
   return (
@@ -36,17 +36,24 @@ export default function Contact() {
                 </div>
                 <div>
                   <div className="font-medium text-primary-900">Email</div>
-                  <div className="text-primary-600">kaushik@example.com</div>
+                  <div className="text-primary-600">vkaushik13804@gmail.com</div>
                 </div>
               </div>
               
               <div className="flex items-center space-x-4">
                 <div className="flex items-center justify-center w-12 h-12 bg-primary-100 rounded-lg text-primary-600">
-                  <Phone size={20} />
+                  <Linkedin size={20} />
                 </div>
                 <div>
-                  <div className="font-medium text-primary-900">Phone</div>
-                  <div className="text-primary-600">+91 12345 67890</div>
+                  <div className="font-medium text-primary-900">LinkedIn</div>
+                  <a 
+                    href="https://www.linkedin.com/in/kaushik-vish/" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="text-primary-600 hover:text-primary-900 transition-colors duration-200"
+                  >
+                    kaushik-vish
+                  </a>
                 </div>
               </div>
               
