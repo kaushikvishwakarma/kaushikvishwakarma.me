@@ -2,7 +2,7 @@ import { ChevronDown, Github, Linkedin, Mail } from 'lucide-react'
 
 export default function Hero() {
   return (
-    <section id="home" className="min-h-screen flex items-center justify-center bg-gradient-to-br from-white to-primary-50">
+    <section id="home" className="min-h-screen flex items-center justify-center bg-gradient-to-br from-white to-primary-50 pt-20">
       <div className="container-max section-padding text-center">
         <div className="animate-fade-in">
           {/* Profile Image Placeholder */}
